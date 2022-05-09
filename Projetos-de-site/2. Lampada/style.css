@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(233, 231, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div {
+    width: max-content;
+    margin: auto;
+}
+
+input {
+    margin-left: 10px;
+}
+
+noscript {
+    text-decoration: none;
+}

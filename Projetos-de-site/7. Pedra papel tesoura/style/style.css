@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    /*
+    --cor1: #660000;
+    --cor2: #990033;
+    --cor3: #5F021F;
+    --cor4: #8C001A;
+    --cor5: #FF9000; 
+
+
+    --cor1: #EB2200;
+    --cor2: #F55A00;
+    --cor3: #DB8000;
+    --cor4: #F5B300;
+    --cor5: #EBCF00;
+    */
+
+    --cor1: #2B26FA;
+    --cor2: #214EDE;
+    --cor3: #3193F5;
+    --cor4: #21B1DE;
+    --cor5: #26FAF4;
+
+    --fonte1: 'Concert One', cursive;
+    --fonte2: 'Lobster', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #c7fffdfb;
+}
+
+nav {
+    background-image: linear-gradient(to right, var(--cor5), var(--cor4));
+    padding: 10px;
+    box-shadow: 2px -1px 11px 4px rgba(0, 0, 0, 0.281);
+}
+
+nav strong {
+    color: var(--cor1);
+}
+
+nav h1 {
+    font-family: var(--fonte1);
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+nav a {
+    font-family: var(--fonte2);
+    color: var(--cor1);
+    padding-right: 10px;
+}
+
+aside {
+    max-width: 610px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.37);
+}
+
+aside h1 {
+    font-family: var(--fonte2);
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+aside h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+aside p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+ul {
+    padding: 10px;
+    padding-left: 50px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+#jogar {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    padding-top: 20px;
+}
+
+input {
+    padding: 10px 40px;
+    background-color: var(--cor5);
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+#pvp:hover, #pve:hover {
+    text-decoration: underline;
+    background-color: var(--cor2);
+    color: white;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #2B26FA;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: var(--fonte1);
+}
+
+footer a {
+    color: white;
+}
+
+@media (max-width: 675px) {
+    img {
+        width: 32%;
+    }
+}
+
+@media (max-width: 360px) {
+    ul {
+        padding-left: 10vw;
+    }
+}

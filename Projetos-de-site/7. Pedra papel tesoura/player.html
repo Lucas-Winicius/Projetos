@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/player.css">
+    <link rel="shortcut icon" href="img/player.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/player.css">
+    <title>Modo PvP</title>
+</head>
+<body>
+    <h1>Player vs Player</h1>
+    <div id="placar">
+        
+        <div id="placar1">
+            <h2>Player 1</h2>
+            <p id="pont1">0 Pontos</p>
+        </div>
+
+        <div  id="placar2">
+            <h2>Player 2</h2>
+            <p id="pont2">0 Pontos</p>
+        </div>
+        
+ 
+        
+    </div>
+
+    <div id="jogo">
+        <input type="number" placeholder="Player 1" name="p1" id="p1" class="input" onclick="limpar()"><input type="button" value="Confirmar" class="botao" id="b1" onclick="validar_p1()">
+        <p id="resp1"></p>
+        <p>vs</p>
+        <input type="number" placeholder="Player 2" name="p2" id="p2" class="input" onclick="limpar()"><input type="button" value="Confirmar" class="botao" id="b2" onclick="validar_p2()">
+        <p id="resp2"></p>
+        <input type="button" value="Batalha!" id="batalha" onclick="batalha()">
+    </div>
+
+    <div id="fim">
+        <p id="Texto">VS</p>
+    </div>
+    <script src="scripts/player.js"></script>
+    <footer></footer>
+    <script src="scripts/footer.js"></script>
+</body>
+</html>

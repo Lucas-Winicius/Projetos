@@ -1,0 +1,1 @@
+Primeira versão do projeto Fundo interativo ultilizando metodos um tanto quanto burros mas que em breve serão corrigidos.

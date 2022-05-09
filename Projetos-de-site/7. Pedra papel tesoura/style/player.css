@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+
+    --cor1: #2B26FA;
+    --cor2: #214EDE;
+    --cor3: #3193F5;
+    --cor4: #21B1DE;
+    --cor5: #26FAF4;
+
+    --fonte1: 'Concert One', cursive;
+    --fonte2: 'Lobster', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #c8e2fc;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--fonte1);
+    padding-top: 20px;
+}
+
+#placar {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 4vh;
+    /* border-radius: 10px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.322);
+    background-color: white; */
+}
+
+#placar h2 {
+    display: inline-block;
+    font-family: var(--fonte2);
+    padding-left: 10vw;
+    font-weight: normal;
+    padding-top: 2vh;
+}
+
+#placar p {
+    display: inline-block;
+    padding-top: 3vh;
+    padding-left: 10.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 3vh;
+}
+
+#placar1, #placar2 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.322);
+}
+
+#placar1 {
+    margin-bottom: 5vh;
+}
+
+#jogo {
+    text-align: center;
+    margin: auto;
+    width: max-content;
+    padding: 20px;
+    margin-top: 10vh;
+    background-color: white;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.322);
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-radius: 10px;
+}
+
+#jogo p {
+    font-size: 2em;
+    font-family: var(--fonte1);
+    padding: 0px;
+    padding-bottom: 15px;
+}
+
+.input {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--cor3);
+    border-radius: 10px 0px 0px 10px;
+    background-color: #e0efff;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.322);
+}
+
+.botao {
+    padding: 10px;
+    background-color: var(--cor5);
+    border: 1px solid var(--cor3);
+    border-left: none;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.322);  
+}
+
+#batalha {
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1.3em;
+    font-weight: bolder;
+    font-family: var(--fonte1);
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color: var(--cor5);
+    border: 1px solid var(--cor3);
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.322);  
+}
+
+#fim {
+    width: max-content;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.322);  
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#fim p {
+    display: inline-block;
+    font-family: var(--fonte2);
+    font-size: 2em;
+}
+
+footer {
+    background-color: var(--cor1);
+    padding: 5px;
+    font-size: 01em;
+    color: white;
+    font-family: var(--fonte2);
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+
+    --cor1: #2B26FA;
+    --cor2: #214EDE;
+    --cor3: #3193F5;
+    --cor4: #21B1DE;
+    --cor5: #26FAF4;
+
+    --fonte1: 'Concert One', cursive;
+    --fonte2: 'Lobster', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: var(--cor5);
+    text-align: center;
+}
+
+h1 {
+    padding: 40px;
+    font-family: var(--fonte1);
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+}
+
+hr {
+    background-color: black;
+    border: 1px solid black;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    line-height: 50px;
+}
+
+input {
+    padding: 15px;
+    background-color: var(--cor5);
+    border-radius: 10px;
+    border: 1px solid var(--cor1);
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-top: 20px;
+}

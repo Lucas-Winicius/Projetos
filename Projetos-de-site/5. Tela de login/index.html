@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>AboboraBook</title>
+</head>
+<body>
+    <div id="login">
+        <div id="tt4">
+            <h1>Bem-vindo(a)</h1>
+            <p>Quanto tempo! Faça login para continuar.</p>
+        </div>
+        <div id="divemail">
+            <input type="email" name="email" id="email" placeholder="Email" class="entrada">
+            <div id="resemail"></div>
+        </div>
+        
+        <div id="divsenha">
+            <input type="password" name="senha" id="senha" placeholder="Senha" class="entrada">
+            <br>
+            <div id="resenha"></div>
+            <p>&#x1F511;<input type="button" value="Mostrar senha" onclick="mostrar_senha()" id="botao"></p>            
+        </div>
+
+        <div id="divbotao">
+        <input type="button" onclick="verificador()" value="Entrar" id="logar" onmousedown="clicou()" onmouseleave="saiu()" onmouseup="saiu(), continuar()">
+        </div>
+
+        <footer>&copy; Criado por: <a href="https://www.instagram.com/sr_pumpkin_/" target="__blank">Abobrinha &#x1F383</a></footer>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

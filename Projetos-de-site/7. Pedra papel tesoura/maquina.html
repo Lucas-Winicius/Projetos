@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/bot.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/maquina.css">
+    <title>Modo PvE</title>
+</head>
+<body>
+    <h1>Player vs Maquina</h1>
+    <div id="placar">
+        
+        <div id="placar1">
+            <h2>Player</h2>
+            <p id="pont1">0 Pontos</p>
+        </div>
+
+        <div  id="placar2">
+            <h2>Maquina</h2>
+            <p id="pont2">0 Pontos</p>
+        </div>
+        
+ 
+        
+    </div>
+
+    <div id="jogo">
+        <input type="radio" id="pedra" name="jogada" value="pedra">
+        <label for="pedra">Pedra</label>
+        
+        <br>
+
+        <input type="radio" id="papel" name="jogada" value="papel">
+        <label for="papel">Papel</label>
+        
+        <br>
+
+        <input type="radio" id="tesoura" name="jogada" value="tesoura">
+        <label for="tesoura">Tesoura</label>
+
+        <br>
+
+        <input type="button" value="Batalha!" id="batalha" onclick="batalha()">
+    </div>
+
+    <div id="fim">
+        <p id="Texto">VS</p>
+    </div>
+    <script src="scripts/maquina.js"></script>
+    <footer></footer>
+    <script src="scripts/footer.js"></script>
+</body>
+</html>

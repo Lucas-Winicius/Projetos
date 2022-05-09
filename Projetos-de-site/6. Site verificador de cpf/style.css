@@ -1,0 +1,147 @@
+/* background-image: linear-gradient(135deg, lightblue, rgb(22, 106, 158)); */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 200px;
+    background-image: linear-gradient(to bottom, #175681, #124465);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding-top: 30px;
+    padding: 30px;
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.705);
+}
+
+p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px black;
+}
+
+#conteudo {
+    width: max-content;
+    margin: auto;
+    margin-top: 30vh;
+    margin-bottom: 85px;
+    height: 50vh;
+}
+
+#conteudo h1 {
+    text-align: center;
+    color: #217BB8;
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+
+#conteudo p {
+    color: #196191;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#cpf {
+    border: none;
+    outline: 0px;
+    background-color: #EDEDED;
+    padding: 15px;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.356);
+}
+
+#validar {
+    padding: 15px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    background-color: #1A6293;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.356);
+}
+
+#pos {
+    background-color: #217BB8;
+    color: white;
+}
+
+#pos p {
+    padding: 20px;
+}
+
+#pos a {
+    color: white;
+}
+
+#correcao {
+    height: calc(100vh - 680px);
+    background-color: #175681;
+}
+
+footer {
+    background-color: #175681;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+@media (max-width: 435px) {
+    nav {
+        height: 230px;
+    }
+}
+
+@media (max-width: 430px) {
+    nav {
+        height: 290px;
+    }
+}
+
+@media (max-width: 340px) {
+    nav {
+        height: 140px;
+    }
+
+    nav h1 {
+        font-size: 1em;
+    }
+
+    nav p {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 310px) {
+    nav {
+        height: 180px;
+    }
+}
+
+@media (max-width: 286px) {
+    nav {
+        height: 190px;
+    }
+}

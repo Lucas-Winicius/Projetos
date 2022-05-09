@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+
+    --cor1: #2B26FA;
+    --cor2: #214EDE;
+    --cor3: #3193F5;
+    --cor4: #21B1DE;
+    --cor5: #26FAF4;
+
+    --fonte1: 'Concert One', cursive;
+    --fonte2: 'Lobster', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#all {
+    
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: var(--cor4);
+    height: max-content;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 30px 60px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.493);
+}
+
+#all h1 {
+    font-family: var(--fonte1);
+    line-height: 40px;
+}
+
+#all p {
+    line-height: 30px;
+}
+
+#all small {
+    color: red;
+}
+
+footer {
+    margin: auto;
+    background-color: var(--cor1);
+    max-width: 700px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px;
+    border-radius: 0px 0px 25px 25px;
+    color: white;
+    box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.493);
+}
+
+footer a {
+    color: white;
+}
+
+/* INPUTS */
+
+.input {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #1838a3;
+    margin-left: 5px;
+}
+
+.botao {
+    padding: 7px 50px;
+    border-radius: 10px;
+    background-color: #00ffff;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+@media (max-width: 720px) {
+    #all {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 550px) {
+    #all {
+        margin-top: 5%;
+    }
+}

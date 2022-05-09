@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/bug.svg" type="image/x-icon" id="favicon">
+    <link rel="stylesheet" href="style.css">
+    <title>Selecione uma cor</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <abbr title="Clique aqui para trocar para o tema claro">
+        <div id="navegacao" onclick="reset()">
+            <h1>Fundo interativo</h1>
+            <p>Selecione uma cor para trocar o fundo para a cor correspondente</p>
+        </div>
+    </abbr>
+
+    <div id="principal">
+        <div class="cor" id="amarelo" onclick="amarelo()"><p>Amarelo</p></div> <div class="cor" id="azul" onclick="azul()"><p>Azul</p></div> <div class="cor" id="vermelho" onclick="vermelho()"><p>Vermelho</p></div>
+        <div class="cor" id="branco" onclick="branco()"><p>Branco</p></div> <div class="cor" id="preto" onclick="preto()"><p>Preto</p></div> <div class="cor" id="rosa" onclick="rosa()"><p>Rosa</p></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
