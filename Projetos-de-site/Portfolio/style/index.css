@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Press+Start+2P&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    --cor1: #171b25;
+    --cor2: #202a5c;
+    --cor3: #556ce0;
+    --cor4: #9fa2af;
+    --cor5: #dceaff;
+
+    --fonte1: 'Atma', cursive;
+    --fonte2: 'Comfortaa', cursive;
+    --fonte3: 'Oswald', sans-serif;
+    --fonte4: 'Pacifico', cursive;
+    --fonte5: 'Press Start 2P', cursive;
+    --fonte6: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--cor5);
+    transition: 1s;
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 20px 20px 5px 10px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.267);
+}
+
+nav h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: var(--fonte6);
+    font-weight: bolder;
+    color: #171b25;
+}
+
+nav a {
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 1.8rem;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+nav a:hover {
+    color: black;
+    padding: 0px 20px;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+article {
+    width: 97vw;
+    height: 60%;
+    margin: auto;
+    margin-top: 3vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.452);
+}
+
+article h1 {
+    font-size: 4rem;
+    font-family: var(--fonte1);
+    text-align: center;
+    border-radius: 20px;
+}
+
+article p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-indent: 3vw;
+    line-height: 70px;
+    font-family: var(--fonte6);
+    padding: 30px;
+    text-align: justify;
+}
+
+#obrigado {
+    text-align: center;
+    color: #202a5c;
+}
+
+.final {
+    text-align: center;
+}
+
+article a {
+    color: black;
+}
+
+main {
+    width: 97vw;
+    height: 60%;
+    margin: auto;
+    margin-top: 3vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.452);
+    padding-bottom: 2vh;
+}
+
+main h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2vh 0 2vh 0;
+    font-family: var(--fonte3);
+    font-weight: bolder;
+}
+
+main h2 {
+    font-size: 2.5rem;
+    font-family: var(--fonte5);
+    padding: 30px;
+    background-image: linear-gradient(to right, var(--cor3), white);
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+main p {
+    font-size: 2rem;
+    font-family: var(--fonte2);
+    text-indent: 3vw;
+    text-align: justify;
+    padding: 30px;
+    line-height: 60px;
+}
+
+main input {
+    display: block;
+    margin: auto;
+    margin-bottom: 10vh;
+    margin-top: 6vh;
+    font-size: 3rem;
+    padding: 30px 70px;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor1));
+    color: white;
+    border-radius: 40px;
+    transition: 1s;
+}
+
+main a::after, article a::after {
+    content: '\00A0\1F517';
+    color: black;
+}
+
+footer {
+    margin-top: 3vh;
+    background-color: var(--cor4);
+    padding: 1.3vh;
+    text-align: center;
+    font-family: var(--fonte3);
+}
+
+footer a {
+    color: black;
+}
+
+@media (max-width: 1900px) {
+    html {
+        font-size: 10px;
+    }
+
+    article p, main p {
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 457px) {
+    main input {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 350px) {
+    main input {
+        font-size: 1.5rem;
+        padding: 10px 50px;
+    }
+
+    main h2 {
+        font-size: 1.4rem;
+    }
+}
