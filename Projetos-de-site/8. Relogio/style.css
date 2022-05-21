@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+    --fonte1: 'Patrick Hand', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    transition: 1s;
+}
+
+p {
+    text-align: center;
+    font-family: var(--fonte1);
+    font-size: 1.5rem;
+}
+
+p#hora {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hour {
+    margin: auto;
+    margin-top: 10%;
+    padding: 30px 50px;
+    max-width: 800px;
+    background-color: gray;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+}
